@@ -1,0 +1,3 @@
+require 'faker'
+
+puts ":: The Flattened World: #{Faker::Book.title} :: \nThe world is changing, #{Faker::HitchhikersGuideToTheGalaxy.planet} is in danger. The #{Faker::HitchhikersGuideToTheGalaxy.specie}, believing in the flat world theory, warned us long ago. #{Faker::HitchhikersGuideToTheGalaxy.marvin_quote}. It is what it is. Time is short. Just #{Faker::Space.distance_measurement} away near #{Faker::RickAndMorty.location}, the star #{Faker::Space.star} had begun to exert its influence on our little home world. Apparently it was all due to our #{Faker::Science.element} rich core. We're all going to be flattened and not even the fabled #{Faker::Superhero.name} could save us now."
